@@ -1,0 +1,83 @@
+body {
+    background: rgb(179, 122, 122);
+    font-family: lato;
+}
+
+h1 {
+    color: rgb(0, 66, 128);
+    text-align: center;
+}
+
+li {
+    background: rgb(235, 110, 158);
+    color: rgb(214, 12, 12);
+    padding: 20px;
+    margin: 20px auto;
+    list-style: none;
+    max-width: 900px;
+    box-shadow: 2px 2px 5px green;
+}
+
+li:hover {
+    background: rgb(94, 2, 48);
+    color: rgb(214, 120, 120);
+}
+
+ul {
+    padding: 0;
+}
+
+span {
+    color: rgb(255, 0, 170);
+}
+S
+/* Classes */
+.cyan {
+    color: rgb(93, 72, 107);
+}
+
+.border-cyan {
+    border: 3px solid rgb(140, 36, 150);
+}
+
+.border-light-green {
+    border: 3px solid lightgreen;
+}
+
+/* id */
+#heading {
+    text-transform: uppercase;
+    color: pink;
+    letter-spacing: 10px;
+    border: 3px dashed rgb(216, 46, 216);
+}
+
+#list {
+    background: rgb(148, 71, 144);
+    padding: 10px;
+}
+
+.box-shadow {
+    font-family: cursive, sans-serif;
+    background-color: #b22ecc;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 20px 23px #c07fec;
+  }
+
+  .footer {
+    background-color: #661a5c;
+    height: 40px;
+  }
+
+.footer p {
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+
+/* Selector types */
+/* elements selectors: h1, p, ul */
+/* class selectors: .h1, .p, .ul */
+/* id selectors: #h1, #p, #ul */
